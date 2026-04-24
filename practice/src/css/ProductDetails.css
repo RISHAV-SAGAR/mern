@@ -1,0 +1,150 @@
+.detailsPage {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 40px 24px 70px;
+}
+
+.detailsHero {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.detailsBadge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.detailsHero h1 {
+  font-size: 34px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.detailsHero p {
+  color: #475569;
+  line-height: 1.7;
+}
+
+.itemsGrid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.itemCard {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.itemHeader h3 {
+  font-size: 20px;
+  color: #0f172a;
+}
+
+.itemPrice {
+  background: #dcfce7;
+  color: #166534;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.itemMeta {
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+.itemDescription {
+  margin-top: 12px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.itemActions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.primaryActionBtn,
+.secondaryActionBtn {
+  border: none;
+  border-radius: 12px;
+  padding: 11px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primaryActionBtn {
+  background: #2563eb;
+  color: #fff;
+}
+
+.secondaryActionBtn {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.primaryActionBtn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.emptyState {
+  max-width: 760px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.actionLink {
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .detailsHero,
+  .itemCard {
+    padding: 18px;
+  }
+
+  .detailsHero h1 {
+    font-size: 28px;
+  }
+
+  .itemHeader {
+    flex-direction: column;
+  }
+}

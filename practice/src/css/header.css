@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #0f172a;
+  color: #fff;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navLinks,
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.navItem {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cartLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  background: #1e293b;
+  border: 1px solid #334155;
+  padding: 8px 12px;
+  border-radius: 999px;
+}
+
+.cartBadge {
+  min-width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #facc15;
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authBtn {
+  color: #fff;
+  text-decoration: none;
+}
+
+.authBtnPrimary,
+.logoutBtn {
+  color: #0f172a;
+  background: #facc15;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+}
+
+.logoutBtn {
+  cursor: pointer;
+}
+
+.welcomeText {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 14px 18px;
+  }
+}
