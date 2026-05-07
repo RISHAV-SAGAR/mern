@@ -17,7 +17,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from 'express'
-import dbConnect from './connect/dbconnect.js'
+import dbConnect from './connect/dbConnect.js'
 import fileUpload from 'express-fileupload'
 import userRouter from './route/userRouter.js'
 import cors from 'cors'
